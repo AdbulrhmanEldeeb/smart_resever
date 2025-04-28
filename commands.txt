@@ -1,0 +1,5 @@
+# to run app localy
+uvicorn main:app --host 0.0.0.0 --port 5000
+
+# to expose port 5000 to public
+ngrok http 5000 
